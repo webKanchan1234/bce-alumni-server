@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bce_alumni
+    username: root
+    password: root1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+jwt:
+  secret: bceAlumniJwtSecretKeyForSpringBootProject2026SecureKey12345678901234567890
+
+
+cloudinary:
+  cloud-name: dcphgmd8y
+  api-key: 765359919187239
+  api-secret: ii88HjGp6emXbbQ3MMhuY33HUk0
+
