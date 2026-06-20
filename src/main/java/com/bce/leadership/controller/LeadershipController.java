@@ -61,4 +61,9 @@ public class LeadershipController {
 
         return service.getPublicLeadership();
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Leadership Working";
+    }
 }
