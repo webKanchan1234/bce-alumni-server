@@ -20,7 +20,8 @@ public class CorsConfig {
 
         config.setAllowedOrigins(
                 List.of(
-                        "http://localhost:5173"
+                        "http://localhost:5173",
+                        "https://famous-banoffee-7f5801.netlify.app"
                 )
         );
 
